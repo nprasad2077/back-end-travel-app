@@ -12,8 +12,8 @@ app.use(cors());
 //     res.redirect('/travel');
 // });
 
-const controller = require('./controllers/controller')
-app.use('/travel', controller);
+// const controller = require('./controllers/controller')
+// app.use('/travel', controller);
 
 app.use((err, req, res, next) => {
     const statusCode = res.statusCode || 500
