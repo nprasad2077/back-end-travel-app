@@ -1,32 +1,25 @@
 {
-  "dependencies": {
-    "chai": "^4.3.7",
-    "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "mocha": "^10.1.0",
-    "mongoose": "^6.8.0",
-    "nodemon": "^2.0.20",
-    "supertest": "^6.3.2"
-  },
-  "name": "back-end-travel-app",
-  "description": "Back End Server for Travel App",
+  "name": "back-end",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "main": "Server.js",
   "scripts": {
-    "test": "node_modules/.bin/mocha",
-    "dev": "nodemon index.js",
-    "start": "node index.js"
+    "start": "node Server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nprasad2077/back-end-travel-app.git"
+    "url": "git+https://github.com/jayanth920/Back-End.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nprasad2077/back-end-travel-app/issues"
+    "url": "https://github.com/jayanth920/Back-End/issues"
   },
-  "homepage": "https://github.com/nprasad2077/back-end-travel-app#readme"
+  "homepage": "https://github.com/jayanth920/Back-End#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.5"
+  }
 }

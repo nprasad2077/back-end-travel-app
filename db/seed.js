@@ -1,8 +1,13 @@
-const mongoose = require('../db/connection');
-const City = require('../models/City');
-const data = require('../db/cities.json');
+const mongoose = require('./connection')
+const City = require('../models/CityModel')
 
-City.deleteMany({}).then(() => {
-    City.create(data).then(cities => {
-    })
-})
+const cityData = require('./seeds.json')
+
+City.deleteMany()
+    .then(() => City.insertMany(cityData))
+    .then(console.log)
+    .catch(console.error)
+    .finally(process.exit)
+
+
+module.exports = mongoose
