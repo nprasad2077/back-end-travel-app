@@ -12,7 +12,7 @@
         "stars": 5, 
         "description": "Classy diner"
     }], 
-    "date": 12-08-2022,
+    "date": "12-08-2022",
     "weather": "Cold and rainy"
 },{
     "name": "San Francisco, CA", 
@@ -28,7 +28,7 @@
         "stars": 4.6, 
         "description": "Neighborhood spot with nautical decor & a menu of pasta, cioppino & other Italian-style seafood."
     }], 
-    "date": 12-08-2022,
+    "date": "12-08-2022",
     "weather": "Hot and rainy"
 },{
     "name": "New York City, NY", 
@@ -44,7 +44,7 @@
         "stars": 4.6, 
         "description": "Neighborhood Italian spot serving reinvented Italian-American classics & pizzas in a dark space."
     }], 
-    "date": 12-08-2022,
+    "date": "12-08-2022",
     "weather": "Hot and rainy"
 },{
     "name": "Washington, D.C.", 
@@ -60,6 +60,6 @@
         "stars": 4.6, 
         "description": "The White House is the official residence and workplace of the president of the United States. It is located at 1600 Pennsylvania Avenue NW in Washington, D.C., and has been the residence of every U.S. president since John Adams in 1800. "
     }], 
-    "date": 12-08-2022,
+    "date": "12-08-2022",
     "weather": "Hot and rainy"
 }]
