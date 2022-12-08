@@ -1,0 +1,65 @@
+[{
+    "name": "Atlanta, GA", 
+    "location": "33°44'56″N 84°23'24″W",
+    "population": 6144050,
+    "discover": [{
+        "name": "Atlanta Botanical Gardens", 
+        "description": "botanical garden", 
+        "imageURL": "www.image.com"
+    }],
+    "food": [{
+        "place": "Marietta Diner", 
+        "stars": 5, 
+        "description": "Classy diner"
+    }], 
+    "date": "12-08-2022",
+    "weather": "Cold and rainy"
+},{
+    "name": "San Francisco, CA", 
+    "location": "37°46'39″N 122°24'59″W",
+    "population": 4749008,
+    "discover": [{
+        "name": "Golden Gate Bridge", 
+        "stars": 4.5, 
+        "imageURL": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGolden_Gate_Bridge&psig=AOvVaw3MzMSof4TpgixuUmj-qZ-Y&ust=1670598373032000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCMiSwYam6vsCFQAAAAAdAAAAABAE"
+    }],
+    "food": [{
+        "place": "Sotto Mare", 
+        "stars": 4.6, 
+        "description": "Neighborhood spot with nautical decor & a menu of pasta, cioppino & other Italian-style seafood."
+    }], 
+    "date": "12-08-2022",
+    "weather": "Hot and rainy"
+},{
+    "name": "New York City, NY", 
+    "location": "40°42'46″N 74°00'22″W",
+    "population": 8467513,
+    "discover": [{
+        "name": "Statue of Liberty", 
+        "stars": 5, 
+        "imageURL": "https://www.history.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTY1MTc1MTk3ODI0MDAxNjA5/topic-statue-of-liberty-gettyimages-960610006-promo.jpg"
+    }],
+    "food": [{
+        "place": "Rubirosa", 
+        "stars": 4.6, 
+        "description": "Neighborhood Italian spot serving reinvented Italian-American classics & pizzas in a dark space."
+    }], 
+    "date": "12-08-2022",
+    "weather": "Hot and rainy"
+},{
+    "name": "Washington, D.C.", 
+    "location": "38°54'17″N 77°00'59″W",
+    "population": 689545,
+    "discover": [{
+        "name": "Statue of Liberty", 
+        "stars": 5, 
+        "imageURL": "https://www.history.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTY1MTc1MTk3ODI0MDAxNjA5/topic-statue-of-liberty-gettyimages-960610006-promo.jpg"
+    }],
+    "food": [{
+        "place": "The White House", 
+        "stars": 4.6, 
+        "description": "The White House is the official residence and workplace of the president of the United States. It is located at 1600 Pennsylvania Avenue NW in Washington, D.C., and has been the residence of every U.S. president since John Adams in 1800. "
+    }], 
+    "date": "12-08-2022",
+    "weather": "Hot and rainy"
+}]
