@@ -1,12 +1,25 @@
-const express = require('express');
-const cors = require('cors');
-
+const express = require("express");
+const mongoose = require("mongoose");
+const cors = require("cors")
+const routes = require("./routes/TravelRoute");
 const app = express();
-app.set('port', process.env.PORT || 4000);
+const PORT = process.env.PORT | 5000;
 
+require("dotenv").config();
 app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
 app.use(cors());
+
+mongoose
+    .connect(process.env.MONGODB_URL, {
+        useNewUrlParser: true,
+        useUnifiedTopology: true
+    })
+    .then(() => console.log("Mongodb Connected..."))
+    .catch((err) => console.error(err));
+
+
+app.use(routes);
+app.listen(PORT, () => console.log("Server running on port " + PORT));
 
 // app.get('/', (req, res) => {
 //     res.redirect('/travel');
@@ -14,13 +27,3 @@ app.use(cors());
 
 // const controller = require('./controllers/controller')
 // app.use('/travel', controller);
-
-app.use((err, req, res, next) => {
-    const statusCode = res.statusCode || 500
-    const message = err.message || 'Internal Server Error'
-    res.status(statusCode).send(message)
-});
-
-app.listen(app.get('port'), () => {
-    console.log(`App listening on ${app.get('port')}`)
-})
