@@ -1,7 +1,20 @@
 const mongoose = require('mongoose');
+require('dotenv').config();
 
-mongoose.connect(`mongodb://localhost/traveldata`, { useNewUrlParser: true })
+const mongoURI = 
+// process.env.DATABASE_URL
+//   process.env.NODE_ENV === `production`
+//   ? process.env.DATABASE_URL
+//   :
+    `mongodb://localhost/supercars`;
 
-mongoose.Promise = Promise
+mongoose
+  .connect(mongoURI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+  }, err => {
+    if(err) throw err;
+    console.log(`Connected to Mongo baby!!!! ${mongoURI}`)
+  })
 
 module.exports = mongoose 

@@ -16,6 +16,8 @@ mongoose.connect(process.env.MONGODB_URL, {
     .then(() => console.log("Mongodb Connected..."))
     .catch((err) => console.error(err));
 
+const controller = require('./controllers/controller')
+app.use('/travel', controller);
 
 app.use(routes);
 app.listen(PORT, () => console.log("Server running on port " + PORT));
@@ -24,5 +26,3 @@ app.listen(PORT, () => console.log("Server running on port " + PORT));
 //     res.redirect('/travel');
 // });
 
-// const controller = require('./controllers/controller')
-// app.use('/travel', controller);

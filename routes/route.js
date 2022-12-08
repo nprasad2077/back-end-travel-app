@@ -1,5 +1,5 @@
 const { Router } = require("express");
-const { getTravel, saveTravel, deleteTravel, updateTravel } = require("../controllers/TravelController");
+const { getTravel, saveTravel, deleteTravel, updateTravel } = require("../controllers/controller");
 const router = Router();
 
 router.get("/", getTravel);
