@@ -1,0 +1,17 @@
+[{
+    "name": "Atlanta, GA", 
+    "location": "33°44'56″N 84°23'24″W",
+    "population": 6144050,
+    "discover": [{
+        "name": "Atlanta Botanical Gardens", 
+        "description": "botanical garden", 
+        "imageURL": "www.image.com"
+    }],
+    "food": [{
+        "place": "Marietta Diner", 
+        "stars": 5, 
+        "description": "Classy diner"
+    }], 
+    "date": 12-08-2022,
+    "weather": "Cold and rainy"
+}]
