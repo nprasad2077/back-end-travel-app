@@ -2,64 +2,64 @@
     "name": "Atlanta, GA", 
     "location": "33°44'56″N 84°23'24″W",
     "population": 6144050,
-    "discover": [{
+    "discover": {
         "name": "Atlanta Botanical Gardens", 
-        "description": "botanical garden", 
+        "stars": 3.5, 
         "imageURL": "https://i0.wp.com/files.tripstodiscover.com/files/2017/12/Atlanta-Botanical-Gardens2.jpg?resize=784%2C588"
-    }],
-    "food": [{
+    },
+    "food": {
         "place": "Marietta Diner", 
         "stars": 5, 
         "description": "Classy diner"
-    }], 
+    }, 
     "date": "12-08-2022",
     "weather": "Cold and rainy"
 },{
     "name": "San Francisco, CA", 
     "location": "37°46'39″N 122°24'59″W",
     "population": 4749008,
-    "discover": [{
+    "discover": {
         "name": "Golden Gate Bridge", 
         "stars": 4.5, 
         "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/GoldenGateBridge-001.jpg/1920px-GoldenGateBridge-001.jpg"
-    }],
-    "food": [{
+    },
+    "food": {
         "place": "Sotto Mare", 
         "stars": 4.6, 
         "description": "Neighborhood spot with nautical decor & a menu of pasta, cioppino & other Italian-style seafood."
-    }], 
+    }, 
     "date": "12-08-2022",
     "weather": "Hot and rainy"
 },{
     "name": "New York City, NY", 
     "location": "40°42'46″N 74°00'22″W",
     "population": 8467513,
-    "discover": [{
+    "discover": {
         "name": "Statue of Liberty", 
         "stars": 5, 
         "imageURL": "https://www.history.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTY1MTc1MTk3ODI0MDAxNjA5/topic-statue-of-liberty-gettyimages-960610006-promo.jpg"
-    }],
-    "food": [{
+    },
+    "food": {
         "place": "Rubirosa", 
         "stars": 4.6, 
         "description": "Neighborhood Italian spot serving reinvented Italian-American classics & pizzas in a dark space."
-    }], 
+    }, 
     "date": "12-08-2022",
     "weather": "Hot and rainy"
 },{
     "name": "Washington, D.C.", 
     "location": "38°54'17″N 77°00'59″W",
     "population": 689545,
-    "discover": [{
+    "discover": {
         "name": "Statue of Liberty", 
         "stars": 5, 
         "imageURL": "https://cdn.britannica.com/43/93843-050-A1F1B668/White-House-Washington-DC.jpg"
-    }],
-    "food": [{
+    },
+    "food": {
         "place": "The White House", 
         "stars": 4.6, 
         "description": "The White House is the official residence and workplace of the president of the United States. It is located at 1600 Pennsylvania Avenue NW in Washington, D.C., and has been the residence of every U.S. president since John Adams in 1800. "
-    }], 
+    }, 
     "date": "12-08-2022",
     "weather": "Hot and rainy"
 }, 
@@ -67,32 +67,32 @@
     "name": "Houston, TX", 
     "location": "29°45'46″N 95°22'59″W",
     "population": 2288000,
-    "discover": [{
+    "discover": {
         "name": "Discovery Green", 
         "stars": 5, 
         "imageURL": "https://pbs.twimg.com/profile_images/1100810667597144064/vQVUybXu_400x400.png"
-    }],
-    "food": [{
+    },
+    "food": {
         "place": "State of Grace", 
         "stars": 4.9, 
         "description": "Polished American spot serving creative Texas dishes, oysters, grilled specialties & cocktails.."
-    }], 
+    }, 
     "date": "12-09-2022",
     "weather": "Hot and Humid"
 },{
     "name": "Los Angeles, CA", 
     "location": "34°03″N 118°15″W",
     "population": 3849000,
-    "discover": [{
+    "discover": {
         "name": "Griffith Observatory", 
         "stars": 5, 
         "imageURL": "https://griffithobservatory.org/wp-content/uploads/2021/03/cameron-venti-PiqHSHYO3Uw-unsplash_noCautionTape_web-1600x800-1638571193.jpg"
-    }],
-    "food": [{
+    },
+    "food": {
         "place": "Pizzeria Mozza", 
         "stars": 4.2, 
         "description": "Widely recognized as one of the best pizzerias in the country, Pizzeria Mozza is known for its California ingredients and a much-talked-about crust."
-    }], 
+    }, 
     "date": "12-09-2022",
     "weather": "Cool and Windy"
 }]

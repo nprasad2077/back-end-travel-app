@@ -24,9 +24,9 @@ const citySchema = new mongoose.Schema({
     location: String, 
     population: Number, 
     discover:{
-        name:String,
-        stars:String,
-        imageURL:String,
+        name: String,
+        stars: String,
+        imageURL: String,
     },
     food:{
         place:String,
