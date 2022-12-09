@@ -21,7 +21,7 @@
     "discover": [{
         "name": "Golden Gate Bridge", 
         "stars": 4.5, 
-        "imageURL": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGolden_Gate_Bridge&psig=AOvVaw3MzMSof4TpgixuUmj-qZ-Y&ust=1670598373032000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCMiSwYam6vsCFQAAAAAdAAAAABAE"
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/GoldenGateBridge-001.jpg/1920px-GoldenGateBridge-001.jpg"
     }],
     "food": [{
         "place": "Sotto Mare", 
