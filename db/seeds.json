@@ -62,4 +62,37 @@
     }], 
     "date": "12-08-2022",
     "weather": "Hot and rainy"
+}, 
+{
+    "name": "Houston, TX", 
+    "location": "29°45'46″N 95°22'59″W",
+    "population": 2288000,
+    "discover": [{
+        "name": "Discovery Green", 
+        "stars": 5, 
+        "imageURL": "https://pbs.twimg.com/profile_images/1100810667597144064/vQVUybXu_400x400.png"
+    }],
+    "food": [{
+        "place": "State of Grace", 
+        "stars": 4.9, 
+        "description": "Polished American spot serving creative Texas dishes, oysters, grilled specialties & cocktails.."
+    }], 
+    "date": "12-09-2022",
+    "weather": "Hot and Humid"
+},{
+    "name": "Los Angeles, CA", 
+    "location": "34°03″N 118°15″W",
+    "population": 3849000,
+    "discover": [{
+        "name": "Griffith Observatory", 
+        "stars": 5, 
+        "imageURL": "https://griffithobservatory.org/wp-content/uploads/2021/03/cameron-venti-PiqHSHYO3Uw-unsplash_noCautionTape_web-1600x800-1638571193.jpg"
+    }],
+    "food": [{
+        "place": "Pizzeria Mozza", 
+        "stars": 4.2, 
+        "description": "Widely recognized as one of the best pizzerias in the country, Pizzeria Mozza is known for its California ingredients and a much-talked-about crust."
+    }], 
+    "date": "12-09-2022",
+    "weather": "Cool and Windy"
 }]
