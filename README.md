@@ -41,7 +41,9 @@ DELETE ('/delete') deletes entire city data by ID <br>
 
 N/A
 
-## Issues and Resolutions
+## Issues, Resolutions, Future Updates
+
+Future updates will incorporate decimal point latitude and longitude for our location data. This makes it possible to map the location points by GPS coordinates with the Google Maps API. 
 
 
 ## Built by: Nikhil Prasad, Jayanth Gajula, and Naveed Ahmad.
