@@ -30,6 +30,13 @@ This app utilizes ReactJS ([Frontend Repo](https://github.com/nprasad2077/front-
 
 [Model](https://media.git.generalassemb.ly/user/45667/files/07174ce6-d624-450b-a041-a18807d62e55)
 
+## Routes 
+
+GET ('/') all city data
+POST ('/add) add city and data 
+PUT ('/update') updates city entries using ID
+DELETE ('/delete') deletes entire city data by ID
+
 ## Additional Libraries
 
 N/A
